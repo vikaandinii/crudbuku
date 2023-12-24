@@ -1,0 +1,51 @@
+.warna1 {
+    background-color: #0d6efd;
+}  
+
+.warna2 {
+    background-color: #6610f2;
+}
+
+.warna3 {
+    background-color: #0d6efd;
+}
+
+.warna4 {
+    background-color: #6610f2;
+}
+
+.banner{
+    height: 400px;
+    background-image: url('halaman1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.border {
+height: 140px;
+}
+
+.highlighted-kategori {
+    border: solid;
+    height: 250px;
+}
+
+.container-fluid img {
+    height: 250px
+}
+
+.kategori-baju-pria {
+    background : linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 4)), url('xampp02/htdocs/websitetokoonline/baju-pria.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-baju-pria img {
+ height: 80px;
+}
+
+.kategori-baju-wanita {
+    background : linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 4)), url('../image/baju1.jpg');
+    background-size: cover;
+    background-position: center;
+}

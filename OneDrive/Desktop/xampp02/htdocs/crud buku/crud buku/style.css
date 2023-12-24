@@ -1,0 +1,123 @@
+ body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #f8f9fa;
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background-color: #343a40;
+     color: #ffffff;
+     padding: 10px 0;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ nav a {
+     color: #ffffff;
+     text-decoration: none;
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ nav a:hover {
+     background-color: #007bff;
+ }
+
+ main.container {
+     margin: 20px;
+ }
+
+ .card {
+     border: none;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+     background-color: #ffffff;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+ .card-header {
+     background-color: #007bff;
+     color: #ffffff;
+     padding: 15px;
+     border-bottom: 1px solid #dee2e6;
+ }
+
+ .card-body {
+     padding: 20px;
+ }
+
+ h1.title {
+     color: black;
+     /* Warna hitam */
+     font-weight: bold;
+     /* Tebal */
+ }
+
+ table.table {
+     width: 100%;
+     margin-top: 20px;
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+
+ table.table th,
+ table.table td {
+     padding: 15px;
+     text-align: left;
+     border-bottom: 1px solid #0f0f0f;
+     border-color: #0f0f0f;
+     border-left: #0f0f0f;
+     border-right: #0f0f0f;
+     border-top: #0f0f0f;
+ }
+
+ table.table th {
+     background-color: #007bff;
+     color: #ffffff;
+ }
+
+ table.table tbody tr:hover {
+     background-color: #f8f9fa;
+ }
+
+ .btn {
+     padding: 10px 15px;
+     margin: 5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .btn-primary {
+     background-color: #007bff;
+     color: #ffffff;
+ }
+
+ .btn-danger {
+     background-color: #dc3545;
+     color: #ffffff;
+ }
+
+ .btn-primary:hover,
+ .btn-danger:hover {
+     background-color: #0056b3;
+ }
+
+ .footer {
+     background-color: #343a40;
+     color: #ffffff;
+     text-align: center;
+     padding: 20px 0;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }

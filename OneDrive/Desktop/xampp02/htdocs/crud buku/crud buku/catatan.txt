@@ -1,0 +1,20 @@
+Pengenalan aplikasi
+
+Tutorial instalasi
+
+Teknologi yang digunakan
+  PHP Versi 7 >
+  Bootstrap 4
+  MySQL Database
+
+Fitur
+  Autentikasi
+  CRUD Data Penerbit
+  CRUD Data Penulis
+  CRUD Data Buku
+
+Tabel
+  Penulis
+  Penerbit
+  Buku
+  admin
